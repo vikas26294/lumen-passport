@@ -22,9 +22,9 @@
         "php": ">=5.6.4",
         "illuminate/database": "~5.3|~5.4",
         "illuminate/support": "~5.3|~5.4",
-        "laravel/passport": "dev-prod"
     },
     "require-dev": {
+        "laravel/passport": "dev-dev-prod",
         "fzaninotto/faker": "~1.4",
         "phpunit/phpunit": "~5.0",
         "codeclimate/php-test-reporter": "dev-master"
