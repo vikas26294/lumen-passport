@@ -14,7 +14,7 @@
                 "source": {
                     "url": "https://github.com/vikas26294/passport.git",
                     "type": "git",
-                    "reference": "v4.0.7@dev"
+                    "reference": "v4.0.8-dev"
                 }
             }
         }
