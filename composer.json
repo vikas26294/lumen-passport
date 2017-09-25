@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Making Laravel Passport work with Lumen",
     "keywords": ["php","lumen","laravel passport"],
-    "homepage": "https://github.com/dusterio/lumen-passport",
+    "homepage": "https://github.com/vikas26294/lumen-passport",
     "license": "MIT",
     "repositories": [
         {
