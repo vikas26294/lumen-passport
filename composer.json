@@ -7,11 +7,8 @@
     "license": "MIT",
     "repositories": [
         {
-            "name": "laravel/passport",
-            "version": "dev-dev-prod",
             "url": "https://github.com/vikas26294/passport.git",
-            "type": "git",
-            "reference": "v4.0.8-dev"
+            "type": "git"
         }
     ],
     "authors": [
@@ -25,7 +22,7 @@
         "php": ">=5.6.4",
         "illuminate/database": "~5.3|~5.4",
         "illuminate/support": "~5.3|~5.4",
-        "laravel/passport": "dev-dev-prod"
+        "laravel/passport": "~4.0.9@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
