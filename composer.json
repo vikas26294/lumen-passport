@@ -5,24 +5,17 @@
     "keywords": ["php","lumen","laravel passport"],
     "homepage": "https://github.com/vikas26294/lumen-passport",
     "license": "MIT",
-    "repositories": [
-        {
-            "url": "https://github.com/vikas26294/passport.git",
-            "type": "git"
-        }
-    ],
     "authors": [
         {
-            "name": "Denis Mysenko",
-            "email": "denis@mysenko.com",
-            "homepage": "https://www.mysenko.com"
+            "name": "Vikaso",
+            "email": "vikas.b@guesthouser.com"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/database": "~5.3|~5.4",
         "illuminate/support": "~5.3|~5.4",
-        "laravel/passport": "4.0.7"
+        "laravel/passport": "5.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
