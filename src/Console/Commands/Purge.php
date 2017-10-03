@@ -32,13 +32,13 @@ class Purge extends Command
      */
     public function handle(ClientRepository $clients)
     {
-        $count = DB::table('oauth_refresh_tokens')->where('expires_at', '<', new DateTime())->delete();
+        $count = DB::table(config('auth.tables_mapping.oauth_refresh_tokens'))->where('expires_at', '<', new DateTime())->delete();
 
         if (Passport::$refreshTokensExpireAt && Passport::$tokensExpireAt) {
             $difference = Passport::$refreshTokensExpireAt->getTimestamp() - Passport::$tokensExpireAt->getTimestamp();
 
             // We assume it's safe to delete tokens that cannot be refreshed anyway
-            $count += DB::table('oauth_access_tokens')
+            $count += DB::table(config('auth.tables_mapping.oauth_access_tokens'))
                 ->where('expires_at', '<', (new DateTime())->setTimestamp(time() - $difference))
                 ->delete();
         }
