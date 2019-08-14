@@ -3,20 +3,20 @@
     "type": "library",
     "description": "Making Laravel Passport work with Lumen",
     "keywords": ["php","lumen","laravel passport"],
-    "homepage": "https://github.com/dusterio/lumen-passport",
+    "homepage": "https://github.com/vikas26294/lumen-passport",
     "license": "MIT",
     "authors": [
         {
-            "name": "Denis Mysenko",
-            "email": "denis@mysenko.com",
-            "homepage": "https://www.mysenko.com"
+            "name": "Vikaso",
+            "email": "vikas.b@guesthouser.com"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/database": "~5.3|~5.4|~5.5|~5.6",
         "illuminate/support": "~5.3|~5.4|~5.5|~5.6",
-        "laravel/passport": ">=0.2.2"
+
+        "laravel/passport": "dev-gh-master-update2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
